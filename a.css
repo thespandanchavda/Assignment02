@@ -1,0 +1,89 @@
+body {
+    margin-top: 25px;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+}
+
+#n ul li {
+    display: inline;
+    border-style: solid;
+    border-color: orange;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+}
+
+#n ul li a {
+    text-decoration: none;
+    color: orangered;
+}
+
+#n li a:hover {
+    color: red;
+    background-color: antiquewhite;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color-scheme: #333333;
+}
+
+#spandan img {
+    height: 200px;
+    width: 100%;
+    opacity: 0.61;
+}
+
+#s {
+    margin: 15px;
+    color: white;
+}
+
+#bio {
+    margin-top: 15px;
+    border-radius: 10px;
+    /*background-color: lightgrey;*/
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: green;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color: darkred;
+}
+
+#bio2 {
+    margin-top: 15px;
+    border-radius: 10px;
+    /*background-color: lightgoldenrodyellow;*/
+    text-align: center;
+}
+
+#bio3 {
+    margin-top: 15px;
+    /* background-color: lightsalmon;*/
+    text-align: center;
+}
+
+#media {
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-left: 400px;
+    color: black;
+}
+
+#fb,
+#ldi,
+#gh {
+    margin-left: 50px;
+}
